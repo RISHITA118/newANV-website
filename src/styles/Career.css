@@ -1,0 +1,197 @@
+.career{
+    padding: 150px 0px;
+    background-image: url('../images/bgNew.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.career .career-title h1{
+    text-align: center;
+    /* color: #2b3467; */
+    /* font-family: 'Josefin Sans', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+
+    padding: 50px 0px 20px;
+    font-weight: 600;
+}
+
+@media (max-width: 576px) {
+    .career {
+        padding: 100px 0px;
+    }
+}
+
+
+
+/* career form */
+
+.career-form{
+    position: relative;
+    padding: 0px 200px;
+    top: -80px;
+}
+
+.career-form .career-p{
+    background-color: white;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+
+.career-form .career-title h5{
+    padding: 20px;
+    font-weight: 400;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+
+}
+
+.career-form .form h4{
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.career-form .form p{
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 10px;
+}
+
+
+
+@media (max-width: 576px) {
+    .career-form {
+        padding: 0px 30px !important;
+    }
+
+    .career-form .career-p {
+        padding: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .career-form {
+        padding: 0px 50px;
+    }
+
+    .career-form .career-p {
+        padding: 25px;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .career-form {
+        padding: 0px 70px;
+    }
+
+    .career-form .career-p {
+        padding: 25px;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .career-form {
+        padding: 0px 100px;
+    }
+
+    .career-form .career-p {
+        padding: 30px;
+    }
+}
+
+
+/* form */
+
+.wrapper-form{
+    position: relative;
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  }
+  .wrapper-form h2{
+    position: relative;
+    font-size: 22px;
+    font-weight: 600;
+    color: #333;
+  }
+  .wrapper-form h2::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 28px;
+    border-radius: 12px;
+    background: #4070f4;
+  }
+  .wrapper-form form{
+    margin-top: 30px;
+  }
+  .wrapper-form form .input-box{
+    height: 52px;
+    margin: 18px 0;
+  }
+  form .input-box input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding: 0 15px;
+    font-size: 15px;
+    font-family: 'Nunito Sans', sans-serif;
+
+    font-weight: 400;
+    color: #333;
+    border: 1.5px solid #C7BEBE;
+    border-bottom-width: 2.5px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+  }
+  .input-box input:focus,
+  .input-box input:valid{
+    border-color: #2b3467;
+  }
+
+ 
+  .input-box.Button input{
+    color: #fff;
+    letter-spacing: 1px;
+    border: none;
+    background: #2b3467;
+    cursor: pointer;
+    transition: all ease 0.7s;
+  }
+
+  .input-box.Button input:hover{
+    background: #ee6c4d;
+  }
+  
+  .custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+  }
+  .custom-file-input::before {
+    content: 'Select files';
+    display: inline-block;
+    /* background: linear-gradient(top, #f9f9f9, #e3e3e3); */
+    /* border: 1px solid #999; */
+    /* border-radius: 3px; */
+    padding: 15px 8px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: lightgray;
+    font-weight: 400 !important;
+    outline: none;
+    white-space: nowrap;
+    cursor: pointer;
+    text-shadow: 1px 1px #fff;
+    font-weight: 700;
+    font-size: 15px;
+  }
+
+  .custom-file-input:hover::before {
+    border-color: black;
+  }

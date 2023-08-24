@@ -1,0 +1,171 @@
+.product{
+    padding: 100px 0px;
+}
+
+.product .product-p{
+    padding: 50px;
+}
+ 
+.product .product-title h1{
+    color: #2b3467;
+    /* color: #ee6c4d; */
+    text-align: center;
+    padding: 30px ;
+    /* font-family: 'Josefin Sans', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.product h5{
+  /* color: #e46a4c; */
+  color: #2b3467;
+
+  /* font-family: 'Josefin Sans', sans-serif; */
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.product .product-f{
+    display: flex;
+}
+
+.product .product-f .product-img{
+    padding: 30px;
+    flex: 1;
+}
+
+.product .product-f .product-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product .product-f .product-content{
+    padding: 30px;
+    flex: 1;
+}
+
+.product .product-f .robo{
+  /* background-image: url('../images/robo/r4-01.png'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+/* 
+.product .product-f .risk{
+  background-image: url('../images/scanrisk/r10-01.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  opacity: 9;
+} */
+
+
+.product .product-f .product-content h3{
+    color: #2b3467;
+    padding: 30px 0px;
+    /* font-family: 'Josefin Sans', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+
+    font-size: 25px;
+}
+
+.product .product-f .product-content ul{
+    /* list-style-image: url('../images/right.png'); */
+    list-style-type: square;
+}
+
+.product .product-f .product-content .moreButton{
+    --primary-color: #2b3467;
+    --secondary-color: #fff;
+    --hover-color: #ee6c4d;
+    --arrow-width: 10px;
+    --arrow-stroke: 2px;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 7px;
+    color: var(--secondary-color);
+    padding: 8px 15px;
+    background: var(--primary-color);
+    display: flex;
+    transition: 0.2s background;
+    align-items: center;
+    gap: 10px;
+}
+
+.product .product-f .product-content .moreButton .arrow-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .product .product-f .product-content .moreButton .arrow {
+    margin-top: 1px;
+    width: var(--arrow-width);
+    background: var(--primary-color);
+    height: var(--arrow-stroke);
+    position: relative;
+    transition: 0.2s all ease;
+  }
+  
+  .product .product-f .product-content .moreButton .arrow::before {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    border: solid var(--secondary-color);
+    border-width: 0 var(--arrow-stroke) var(--arrow-stroke) 0;
+    display: inline-block;
+    top: -3px;
+    right: 3px;
+    transition: 0.2s;
+    padding: 3px;
+    transform: rotate(-45deg);
+  }
+  
+  .product .product-f .product-content .moreButton:hover {
+    background-color: var(--hover-color);
+  }
+  
+  .product .product-f .product-content .moreButton:hover .arrow {
+    background: var(--secondary-color);
+  }
+  
+  .product .product-f .product-content .moreButton:hover .arrow:before {
+    right: 0;
+  }
+
+
+@media (max-width: 576px) {
+  .product .product-f{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  
+  .product .product-f{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+
+.product-bg{
+  position: relative;
+}
+
+
+
+.product-bg::after{
+  z-index: -1;
+  content: '';
+  /* background-image: url('../images/Background.png'); */
+  position: absolute;
+  background-size: 100%;
+  transform: rotate(-90deg);
+  background-repeat: no-repeat;
+  right: -23%;
+  bottom: -83%;
+}

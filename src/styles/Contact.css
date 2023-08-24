@@ -1,0 +1,208 @@
+.contact{
+    /* background-color: #fc947a; */
+    background-image: url('../images/bgNew.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px;
+}
+
+.contact .contact-title{
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.contact .contact-title h1{
+    /* color: #2b3467; */
+    /* font-family: 'Josefin Sans', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+
+@media (max-width: 768px) {
+  .contact .contact-title h1{
+    font-size: 27px;
+  }
+}
+
+
+
+/* address */
+
+.contact-add{
+    padding: 0px 150px;
+    position: relative;
+    top: -80px;
+    z-index: 111;
+  }
+
+  .contact-add .contact-p{
+    padding: 70px 30px 0px;
+    background-color: white;
+    border-radius: 10px;
+  }
+
+  .contact-add .contact-f{
+    display: flex;
+  }
+
+  .contact-add .contact-f .address{
+    flex: 1;
+    padding: 0px 30px;
+    /* border: 1px solid #2b3467; */
+    border-radius: 5px;
+  }
+
+  .contact-add .contact-f .contact-img{
+    flex: 1;
+    padding: 60px 30px;
+    /* border: 1px solid #2b3467; */
+    border-radius: 5px;
+  }
+
+  .contact-add .contact-f .address h3{
+    /* font-family: 'Josefin Sans', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+
+    padding: 65px 0px 20px 0px;
+  }
+
+
+  .contact-add .contact-f .address .add-f{
+    display: flex;
+    padding: 10px 0px;
+    gap: 10px;
+  }
+
+  .contact-add .contact-f .address .add-f .add-address{
+    flex: 1;
+  }
+
+  .contact-add .contact-f .address .add-f .add-address .icon{
+    font-size: large;
+  }
+
+  .contact-add .contact-f .address .add-f .add-address h6{
+    color: #2b3467;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    padding: 10px 0px 0px;
+  }
+
+
+  .contact-add .contact-f .address .add-f .add-contact{
+    flex: 1;
+  }
+
+  .contact-add .contact-f .address .add-f .add-contact .icon{
+    font-size: large;
+  }
+
+  .contact-add .contact-f .address .add-f .add-contact h6{
+    color: #2b3467;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    padding: 10px 0px 0px;
+  }
+
+  .contact-add .contact-f .address .add-f .add-mail{
+    flex: 1;
+  }
+
+  .contact-add .contact-f .address .add-f .add-mail .icon{
+    font-size: large;
+  }
+
+  .contact-add .contact-f .address .add-f .add-mail h6{
+    color: #2b3467;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    padding: 10px 0px 0px;
+  }
+
+
+
+
+  @media (max-width: 576px) {
+
+
+    .contact-add .contact-p {
+      padding: 0px 30px;
+   }
+
+    .contact-add .contact-f{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .contact-add .contact-f .address .add-f{
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  @media (max-width: 768px) {
+    
+    .contact-add .contact-p {
+      padding: 0px 0px;
+   }
+
+    .contact-add .contact-f{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .contact-add .contact-f .address .add-f{
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+
+  @media (max-width: 992px) {
+
+    .contact-add {
+      padding: 0px 50px !important;
+    }
+    .contact-add .contact-p {
+      padding: 0pxs;
+    }
+
+    .contact-add .contact-f{
+      flex-direction: column !important;
+    }
+    
+  }
+
+  @media (max-width: 1200px) {
+
+    .contact-add {
+      padding: 0px;
+    }
+
+    .contact-add .contact-p {
+      padding: 0pxs;
+    }
+    
+  }
+
+  /* map */
+
+  .map .map-p {
+    padding: 0px 150px;
+  }
+
+
+  @media (max-width: 768px) {
+    .map .map-p {
+      padding: 0px 50px !important;
+    }
+  }
+
+  @media (max-width: 992px) {
+    .map .map-p{
+      padding: 0px 100px;
+    }
+  }
